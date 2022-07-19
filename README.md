@@ -21,7 +21,7 @@ You can learn more about the book here:
 * [Gumroad](https://superfastpython.gumroad.com/l/pmpj)
 * [GoodReads](https://www.goodreads.com/book/show/61606103-python-multiprocessing-pool-jump-start)
 
-Blurb
+### Book Blurb
 
 > How much faster can your python code run (if it used all CPU cores)?
 >
