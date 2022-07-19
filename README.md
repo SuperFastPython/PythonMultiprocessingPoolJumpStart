@@ -19,6 +19,7 @@ You can access all Python .py files directly here:
 You can learn more about the book here:
 
 * [Gumroad](https://superfastpython.gumroad.com/l/pmpj)
+* [Amazon](https://www.amazon.com/dp/B0B6YSF8XQ)
 * [GoodReads](https://www.goodreads.com/book/show/61606103-python-multiprocessing-pool-jump-start)
 
 ### Book Blurb
