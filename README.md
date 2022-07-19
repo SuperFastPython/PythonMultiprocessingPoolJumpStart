@@ -8,13 +8,17 @@ This repository provides all source code for the book:
 
 * **Python Multiprocessing Pool Jump-Start**: _Run Your Python Functions In Parallel With Just A Few Lines Of Code_, Jason Brownlee, 2022.
 
+
+## Source Code
 You can access all Python .py files directly here:
 
-* [src/](tree/main/src)
+* [src/](src/)
+
+## Get the Book
 
 You can learn more about the book here:
 
-* [GumRoad](https://superfastpython.gumroad.com/l/pmpj)
+* [Gumroad](https://superfastpython.gumroad.com/l/pmpj)
 * [GoodReads](https://www.goodreads.com/book/show/61606103-python-multiprocessing-pool-jump-start)
 
 Blurb
