@@ -20,11 +20,11 @@ You can learn more about the book here:
 
 * [Gumroad](https://superfastpython.gumroad.com/l/pmpj)
 * [Amazon](https://www.amazon.com/dp/B0B6YSF8XQ)
-* [GoodReads](https://www.goodreads.com/book/show/61606103-python-multiprocessing-pool-jump-start)
+* [Goodreads](https://www.goodreads.com/book/show/61606103-python-multiprocessing-pool-jump-start)
 
 ### Book Blurb
 
-> How much faster can your python code run (if it used all CPU cores)?
+> How much faster could your python code run (if it used all CPU cores)?
 >
 > The multiprocessing.Pool class provides easy-to-use process-based concurrency.
 >
@@ -42,7 +42,6 @@ You can learn more about the book here:
 >
 > Each lesson ends with an exercise for you to complete to confirm you understood the topic, a summary of what was learned, and links for further reading if you want to go deeper.
 >
-> Stop copy-pasting code from outdated blog posts.
-> Stop trying to parse messy StackOverflow answers.
+> Stop copy-pasting code from outdated StackOverflow answers.
 >
 > Learn Python concurrency correctly, step-by-step.

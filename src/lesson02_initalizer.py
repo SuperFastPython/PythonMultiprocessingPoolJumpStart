@@ -1,5 +1,5 @@
 # SuperFastPython.com
-# example of initializing worker processes in the multiprocessing pool
+# example initializing worker processes in the pool
 from time import sleep
 from multiprocessing import Pool
 

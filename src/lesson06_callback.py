@@ -13,7 +13,8 @@ def task(identifier):
     # generate a value
     value = random()
     # report a message
-    print(f'Task {identifier} executing with {value}', flush=True)
+    print(f'Task {identifier} executing with {value}',
+        flush=True)
     # block for a moment
     sleep(value)
     # return the generated value
@@ -24,7 +25,8 @@ if __name__ == '__main__':
     # create and configure the multiprocessing pool
     with Pool() as pool:
         # issue tasks to the multiprocessing pool
-        result = pool.apply_async(task, args=(0,), callback=result_callback)
+        result = pool.apply_async(task, args=(0,),
+            callback=result_callback)
         # close the multiprocessing pool
         pool.close()
         # wait for all tasks to complete

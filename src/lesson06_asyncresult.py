@@ -1,5 +1,5 @@
 # SuperFastPython.com
-# example of checking the status and handling the result of an async task
+# example check status and handle result of async task
 from time import sleep
 from random import random
 from multiprocessing import Pool

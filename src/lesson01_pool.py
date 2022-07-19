@@ -1,5 +1,5 @@
 # SuperFastPython.com
-# example of running a function in the multiprocessing pool
+# example running a function in the multiprocessing pool
 from multiprocessing import Pool
 
 # a task to execute in another process

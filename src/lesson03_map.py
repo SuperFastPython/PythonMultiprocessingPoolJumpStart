@@ -5,7 +5,7 @@ from multiprocessing import Pool
 # a task to execute in another process
 def task(arg):
     # report a message
-    print(f'This is another process with {arg}', flush=True)
+    print(f'From another process {arg}', flush=True)
     # return a value
     return arg * 2
 
@@ -13,6 +13,6 @@ def task(arg):
 if __name__ == '__main__':
     # create the multiprocessing pool
     with Pool() as pool:
-        # issue multiple tasks to the pool and process return values
+        # issue multiple tasks and process return values
         for result in pool.map(task, range(10)):
             print(result)

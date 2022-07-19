@@ -1,11 +1,12 @@
 # SuperFastPython.com
-# example of executing multiple tasks with multiple arguments
+# example with multiple tasks with multiple arguments
 from multiprocessing import Pool
 
 # a task to execute in another process
 def task(arg1, arg2, arg3):
     # report a message
-    print(f'This is another process with {arg1}, {arg2}, {arg3}', flush=True)
+    print(f'From another process {arg1}, {arg2}, {arg3}',
+        flush=True)
     # return a value
     return arg1 + arg2 + arg3
 

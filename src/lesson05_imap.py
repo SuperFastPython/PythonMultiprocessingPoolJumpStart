@@ -9,7 +9,7 @@ def task(arg):
     # block for a random fraction of a second
     sleep(random())
     # report a message
-    print(f'This is another process with {arg}', flush=True)
+    print(f'From another process {arg}', flush=True)
     # return a value
     return arg * 2
 
@@ -17,6 +17,6 @@ def task(arg):
 if __name__ == '__main__':
     # create the multiprocessing pool
     with Pool(4) as pool:
-        # issue multiple tasks to the pool and process return values
+        # issue multiple tasks and process return values
         for result in pool.imap(task, range(10)):
             print(result)
