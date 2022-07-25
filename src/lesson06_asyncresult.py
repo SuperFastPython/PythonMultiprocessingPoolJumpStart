@@ -4,7 +4,7 @@ from time import sleep
 from random import random
 from multiprocessing import Pool
 
-# a task to execute in another process
+# custom function to be executed in a child process
 def task():
     # loop a few times to simulate a slow task
     for i in range(10):
@@ -15,7 +15,7 @@ def task():
         # report a message
         print(f'>{i} got {value}', flush=True)
 
-# entry point for the program
+# protect the entry point
 if __name__ == '__main__':
     # create the multiprocessing pool
     with Pool() as pool:

@@ -1,15 +1,15 @@
 # SuperFastPython.com
-# example of executing multiple task with Pool.map()
+# example of executing multiple tasks and waiting
 from multiprocessing import Pool
 
-# a task to execute in another process
+# custom function to be executed in a child process
 def task(arg):
     # report a message
     print(f'From another process {arg}', flush=True)
     # return a value
     return arg * 2
 
-# entry point for the program
+# protect the entry point
 if __name__ == '__main__':
     # create the multiprocessing pool
     with Pool() as pool:

@@ -3,7 +3,7 @@
 from time import sleep
 from multiprocessing import Pool
 
-# task executed in a worker process
+# custom function to be executed in a child process
 def task():
     # report a message
     print('Worker executing task...', flush=True)

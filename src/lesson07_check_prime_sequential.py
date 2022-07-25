@@ -32,7 +32,7 @@ def check_numbers_are_prime(numbers):
         if is_prime(number):
             print(f'{number} is prime')
 
-# entry point
+# protect the entry point
 if __name__ == '__main__':
     # define some numbers to check
     NUMS = [17977, 10619863, 106198, 6620830889,
@@ -43,4 +43,3 @@ if __name__ == '__main__':
         44560482149, 1746860020068409]
     # check whether each number is a prime
     check_numbers_are_prime(NUMS)
-

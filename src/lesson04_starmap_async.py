@@ -1,8 +1,8 @@
 # SuperFastPython.com
-# example with multiple tasks with multiple arguments
+# example many tasks multiple arguments asynchronously
 from multiprocessing import Pool
 
-# a task to execute in another process
+# custom function to be executed in a child process
 def task(arg1, arg2, arg3):
     # report a message
     print(f'From another process {arg1}, {arg2}, {arg3}',
@@ -10,7 +10,7 @@ def task(arg1, arg2, arg3):
     # return a value
     return arg1 + arg2 + arg3
 
-# entry point for the program
+# protect the entry point
 if __name__ == '__main__':
     # create the multiprocessing pool
     with Pool() as pool:

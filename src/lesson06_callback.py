@@ -1,11 +1,12 @@
 # SuperFastPython.com
-# example of a callback function for Pool.apply_async()
+# example of callback function for a one-off async task
 from random import random
 from time import sleep
 from multiprocessing.pool import Pool
 
-# result callback function
+# custom function to be executed in a child process
 def result_callback(return_value):
+    # report a message
     print(f'Callback got: {return_value}', flush=True)
 
 # task executed in a worker process
