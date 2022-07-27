@@ -20,6 +20,8 @@ You can learn more about the book here:
 
 * [Gumroad](https://superfastpython.gumroad.com/l/pmpj)
 * [Amazon](https://www.amazon.com/dp/B0B6YSF8XQ)
+* [GooglePlay](https://play.google.com/store/books/details?id=in58EAAAQBAJ)
+* [GoogleBooks](http://books.google.com/books/about?id=in58EAAAQBAJ)
 * [Goodreads](https://www.goodreads.com/book/show/61606103-python-multiprocessing-pool-jump-start)
 
 ### Book Blurb
